@@ -1,0 +1,217 @@
+body, header , section ,h1 {
+    margin: 0 auto ;
+    padding: auto ;
+}
+
+/* header section  */
+header {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+header h1 {
+    padding: 10px;
+    margin: 20px auto 0 ;
+}
+header h1 span {
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+header p {
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* body div left 40%  */
+.first {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(64, 224, 208);
+}
+.profile_img_left {
+    height: 260px;
+    width: 40%;
+    float: left;
+    margin: 20px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.profile_img_left img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.profile_img_left img:hover {
+    color: red; 
+}
+
+/* 1st div right  */
+.profile_details_right {
+    height: 200px;
+    width: 58%;
+    float: right;
+    border: 3px solid red;
+    margin: 50px auto 0;
+    text-align: center;
+    overflow: hidden;
+}
+.profile_details_right h1 {
+    color: red;
+    font-size: 30px;
+    font-family: impact;
+    padding: 10px;
+}
+
+
+/* 2nd div  */
+.sec_main {
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.team_right_style {
+    height: 400px;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+ 
+}
+.team_right_style img {
+   height: 70%;
+    width: 100%;
+}
+.team_right_style h2 {
+    color: crimson;
+    text-align: center;
+    padding: 5px;
+}
+.team_right_style p {
+    color:darkblue;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px;
+}
+
+.team_center_style {
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    background-color: seagreen;
+}
+.team_center_style img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px auto 0;
+
+}
+.team_center_style h1 {
+    color: white;
+    font-family: sans-serif;
+}
+.team_center_style p {
+    color: white;
+}
+
+
+/* 3rd section  */
+.third {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(64, 224, 208);
+    text-align: center;
+}
+.team_inline {
+    display: inline;
+}
+.team_inline img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.team_inline h3 {
+    color: red;
+    font-size: 20px;  
+}
+.team_inline p {
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+/* scrolling top tag  */
+.top {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 71, 71);
+    text-align: center;
+
+}
+.top a {
+    color: white;
+    background-color: rgb(250, 15, 15);
+    padding: 10px;
+    border-radius: 50%;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px auto 0;
+}
+
+
+
+
+
+/* footer section  */
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  
+}
+footer h4 {
+    font-family: impact;
+    font-size: 30px;
+    padding: 20px;
+    margin: auto;
+    letter-spacing: 1px;
+
+}
+footer h4 span {
+    color: red;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+/* Extra Class's  */
+
+.right {
+    float: right;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+    margin: 0 auto;
+}
+
+
